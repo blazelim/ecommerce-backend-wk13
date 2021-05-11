@@ -35,11 +35,10 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-
   .then(dbCategoryData => {
     // reject in case not found
     if(!dbCategoryData) {
-        res.status(404).json({message: "No post found with this id"});
+        res.status(404).json({message: "No category found with this id"});
         return;
     }
     // respond with json if successful
