@@ -14,6 +14,7 @@ Manage your online store with this simple, easy-to-use backend application! Put 
 * [Questions](#questions)
 
 ## Video Walkthrough for Installation and Usage
+https://drive.google.com/file/d/1gy-FCIf-ANwk7GMq-__ibNj9rXdxBt_Y/view?usp=sharing
 
 ## Installation
 In the root directory in your CLI, run the command 'npm install' to install the dependencies. Then, in your MySQL shell, run the command 'SOURCE db/schema.sql' to initialize your database. Sequelize will handle creating your tables. Optionally, seed some data with the command 'npm run seed'
